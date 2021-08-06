@@ -43,3 +43,31 @@ p{
     padding: 0.3rem;
     margin: 0.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .temp{
+        width: 100%;
+        display: block;
+        border: 10px solid transparent;
+    }
+    .meme{
+        text-align: center;
+    }
+    .meme img{
+        height: auto;
+        width: 100%;
+        margin-top: 3.125rem; 
+        border: 1px dashed black;
+    }
+    
+    .meme input{
+        padding: 5px;
+        margin: 2%;
+        background-color: white;
+    }
+    .meme button{
+        background-color: white;
+        padding: 0.3rem;
+        margin: 0.5rem;
+    }
+}

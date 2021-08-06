@@ -5,7 +5,7 @@ const home = ({ templates, setMeme }) => {
                 <div key={template.id} className="temp" onClick={() => {
                     setMeme(template);
                 }} >
-                    <div className="images">
+                    <div className="images" >
                         <img src={template.url} alt="meme" className="image" />
                     </div>
                 </div>
