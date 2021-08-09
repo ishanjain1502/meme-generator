@@ -13,7 +13,7 @@ const Meme = ({ meme, setMeme }) => {
 
         let url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
         form.boxes.map((box, index) => {
-            url += `&boxes[${index}][text]=${box.text}`;
+           return url += `&boxes[${index}][text]=${box.text}`;
         })
         fetch(url).then(res => res.json())
             .then(xyz => {
