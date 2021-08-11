@@ -1,6 +1,6 @@
 {
   "name": "meme-gen",
-  "homepage": "https://ishanjain1502.github.io/meme-generator",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
