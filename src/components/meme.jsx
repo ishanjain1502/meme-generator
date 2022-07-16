@@ -24,7 +24,7 @@ const Meme = ({ meme, setMeme }) => {
                     setMeme({ ...meme, url: xyz.data.url })
                 }
             })
-        console.log(url);
+        // console.log(url);
     }
 
     return (
