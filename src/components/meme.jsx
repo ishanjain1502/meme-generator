@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import dotenv from  'dotenv'
+// import dotenv from  'dotenv'
 
 
 const Meme = ({ meme, setMeme }) => {
