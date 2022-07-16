@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import dotenv from  'dotenv'
+
 
 const Meme = ({ meme, setMeme }) => {
 
     const [form, setForm] = useState({
         template_id: meme.id,
-        username: "IshanJain",
-        password: "eazyphisy",
+        username: process.env.REACT_APP_API_USERNAME,
+        password: process.env.REACT_APP_API_PASSWORD,
         boxes: []
     });
 
